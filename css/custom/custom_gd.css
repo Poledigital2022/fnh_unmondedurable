@@ -1,0 +1,89 @@
+:root {
+    --blue-darker-color: #243343;
+    --blue-dark-color: #47627E;
+    --blue-color: #7090B0;
+}
+
+/* slide home */
+.slide-txt h1 {
+    font: 700 2.5rem 'futura-pt', sans-serif;
+    line-height: 3.2rem;
+}
+.slide-txt h2 {
+    font: 700 2.5rem 'futura-pt', sans-serif;
+    line-height: 2.7rem;
+    opacity: 1;
+    padding: 0 0 4rem 0;
+}
+.slide-txt {
+    padding-top: 10vh;
+}
+
+
+/* bloc 4 Donnation */
+section#dons {
+    background-color: var(--blue-color);
+}
+.point-don-num {
+    background-color: var(--blue-dark-color);
+}
+.point-don-titre h5 {
+    color: var(--blue-color);
+}
+#boutons_dons {
+    background-color: #fff;
+}
+#boutons_dons button {
+    border: solid 2px var(--blue-darker-color);
+    background-color: #fff;
+    color: var(--blue-darker-color);
+}
+#boutons_dons button:hover {
+    background-color: var(--red-color);
+    border: solid 2px var(--red-color);
+    color: #fff;
+}
+.buttonDon-clicked {
+    color: #fff !important;
+    background-color: var(--red-color) !important;
+    border-color: var(--red-color) !important;
+}
+#boutons_dons div.input-don {
+    border: solid 2px var(--blue-darker-color);
+    background-color: #fff;
+    color: var(--blue-darker-color);
+}
+#boutons_dons div.input-don:hover {
+    border-color: var(--red-color);
+}
+#boutons_dons div.input-don:hover input {
+    color: #fff;
+}
+#boutons_dons input {
+    color: var(--blue-darker-color);
+}
+section#dons .cta_btn-dons {
+    color: #fff;
+    background-color: var(--red-color);
+    border: 2px solid var(--red-color);
+}
+section#dons .cta_btn-dons:hover {
+    color: var(--red-color);
+    background-color: #fff;
+    border: 2px solid var(--red-color);
+}
+.deduction, .deduction-if {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--blue-darker-color);
+}
+.deduction {
+    margin-bottom: 0;
+}
+.deduction-if {
+    margin-bottom: 1rem;
+}
+section#deductible {
+    background-color: var(--blue-color);
+}
